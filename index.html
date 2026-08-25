@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="az" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Softwave</title>
+
+  <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!--- End favicon-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- End google font  -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body id="body" class="light-mode">
+
+  <header class="sw--header">
+    <div class="container">
+      <div class="sw--header__bar">
+        <a class="sw--header__logo" href="index.html" aria-label="Softwave">
+          <img class="sw--header__logo-img" src="assets/images/logo/softwave-logo-main.png" alt="Softwave">
+        </a>
+
+        <nav class="sw--header__nav" aria-label="Əsas menyu">
+          <ul class="sw--header__menu">
+            <li><a class="sw--header__link" href="#aboutus">Haqqımızda</a></li>
+            <li><a class="sw--header__link" href="#services">Xidmətlər</a></li>
+            <li><a class="sw--header__link" href="#projects">Portfoliomuz</a></li>
+            <li><a class="sw--header__link" href="#contact">Əlaqə</a></li>
+          </ul>
+        </nav>
+
+        <a class="sw--header__help" href="tel:+994504133684" aria-label="Zəng et: +994 (50) 413 36 84">
+          <span class="sw--header__help-icon" aria-hidden="true">
+            <i class="fa-solid fa-phone"></i>
+          </span>
+          <span class="sw--header__help-text">
+            <span class="sw--header__help-label">Sualınız var?</span>
+            <span class="sw--header__help-number">+994 (50) 413 36 84</span>
+          </span>
+        </a>
+
+        <button class="sw--header__burger" type="button" aria-label="Menünü aç" aria-expanded="false" aria-controls="sw--mobile-menu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="sw--mobile-menu-overlay" data-close-menu></div>
+  <aside class="sw--mobile-menu" id="sw--mobile-menu" aria-label="Mobil menyu">
+    <div class="sw--mobile-menu__head">
+      <a class="sw--mobile-menu__logo" href="index.html" aria-label="Softwave">
+        <img src="assets/images/logo/softwave-logo-main.png" alt="Softwave">
+      </a>
+      <button class="sw--mobile-menu__close" type="button" aria-label="Menünü bağla" data-close-menu>
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <nav class="sw--mobile-menu__nav" aria-label="Mobil əsas menyu">
+      <ul class="sw--mobile-menu__list">
+        <li><a class="sw--mobile-menu__link" href="#aboutus">Haqqımızda</a></li>
+        <li><a class="sw--mobile-menu__link" href="#services">Xidmətlər</a></li>
+        <li><a class="sw--mobile-menu__link" href="#projects">Portfoliomuz</a></li>
+        <li><a class="sw--mobile-menu__link" href="#contact">Əlaqə</a></li>
+      </ul>
+    </nav>
+    <div class="sw--mobile-menu__foot">
+      <a class="sw--mobile-menu__contact" href="tel:+994504133684">
+        <span class="sw--header__help-icon" aria-hidden="true">
+          <i class="fa-solid fa-phone"></i>
+        </span>
+        <span>
+          <span class="sw--header__help-label">Sualınız var?</span>
+          <span class="sw--header__help-number">+994 (50) 413 36 84</span>
+        </span>
+      </a>
+    </div>
+  </aside>
+
+  <section id="home" class="sw--banner">
+    <img class="sw--banner__bg-shape" src="assets/images/banner-shape-2.png" alt="" aria-hidden="true">
+
+    <div class="container">
+      <div class="sw--banner__body">
+        <div class="sw--banner__content">
+          <!-- <h1 class="sw--banner__title">Technology<br>that powers<br>the future</h1> -->
+          <h1 class="sw--banner__title">Gələcəyin rəqəmsal həlləri, bu gün.</h1>
+          <p class="sw--banner__text">"Softwave" olaraq, biznesiniz üçün müasir veb-saytlar, mobil tətbiqlər və effektiv idarəetmə sistemləri yaradırıq. Bizimlə rəqəmsal dünyada bir addım öndə olun.</p>
+          <a class="sw--btn sw--btn--primary" href="#projects">
+            Ətraflı bax <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="sw--banner__media">
+          <img class="sw--banner__image" src="assets/images/banner-img-1.png" alt="Banner image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="aboutus" class="sw--features">
+    <div class="container">
+      <div class="sw--features__body">
+        <div class="sw--features__media">
+          <div class="sw--features__shape" aria-hidden="true"></div>
+          <div class="sw--features__image-wrap sw--features__image-wrap--main">
+            <img class="sw--features__image" src="assets/images/feature-img-1.png" alt="Features main image">
+          </div>
+          <div class="sw--features__image-wrap sw--features__image-wrap--small">
+            <img class="sw--features__image" src="assets/images/feature-img-2.png" alt="Features team image">
+          </div>
+        </div>
+
+        <div class="sw--features__content">
+          <div class="sw--section-heading">
+            <span class="sw--section-heading__eyebrow">BİZ NƏ EDİRİK?</span>
+            <h2 class="sw--section-heading__title">Fikirdən İcraya: Biznesiniz Üçün Tam Həllər</h2>
+          </div>
+
+          <div class="sw--features__list">
+            <article class="sw--feature-item">
+              <div class="sw--feature-item__icon sw--feature-item__icon--green">
+                <i class="fa-solid fa-microchip"></i>
+              </div>
+              <div class="sw--feature-item__content">
+                <h3 class="sw--feature-item__title">Professional Proqram Təminatı</h3>
+                <p class="sw--feature-item__text">İdarəetmə sistemlərindən korporativ veb-saytlara qədər, biznesinizin rəqəmsal infrastrukturunu mükəmməl şəkildə qururuq.</p>
+              </div>
+            </article>
+
+            <article class="sw--feature-item">
+              <div class="sw--feature-item__icon sw--feature-item__icon--blue">
+                <i class="fa-solid fa-pen-ruler"></i>
+              </div>
+              <div class="sw--feature-item__content">
+                <h3 class="sw--feature-item__title">Yüksək İstifadəçi Təcrübəsi (UX/UI)</h3>
+                <p class="sw--feature-item__text">Mobil tətbiqlərimiz və rəqəmsal məhsullarımız vasitəsilə müştəriləriniz üçün unudulmaz və rahat rəqəmsal təcrübə formalaşdırırıq.</p>
+              </div>
+            </article>
+
+            <article class="sw--feature-item">
+              <div class="sw--feature-item__icon sw--feature-item__icon--yellow">
+                <i class="fa-solid fa-layer-group"></i>
+              </div>
+              <div class="sw--feature-item__content">
+                <h3 class="sw--feature-item__title">Strateji Marketinq və Tədbirlər</h3>
+                <p class="sw--feature-item__text">SEO strategiyaları ilə onlayn, unikal konseptli tədbir təşkilatçılığı ilə isə oflayn məkanda brendinizin nüfuzunu artırırıq.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="sw--services">
+    <div class="container">
+      <div class="sw--services__top">
+        <div class="sw--section-heading">
+          <span class="sw--section-heading__eyebrow">XİDMƏTLƏRİMİZ</span>
+          <h2 class="sw--section-heading__title">Rəqəmsal Dünya Üçün Ağıllı Həllər</h2>
+        </div>
+
+        <div class="sw--services__arrows">
+          <button class="sw--services__arrow sw--services__arrow--prev" type="button" aria-label="Previous services">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button class="sw--services__arrow sw--services__arrow--next" type="button" aria-label="Next services">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="sw--services__slider">
+
+        <article class="sw--service-card">
+          <div class="sw--service-card__icon sw--service-card__icon--green">
+            <i class="fa-solid fa-users-gear"></i>
+          </div>
+          <h3 class="sw--service-card__title">İdarəetmə Sistemləri</h3>
+        </article>
+
+        <article class="sw--service-card">
+          <div class="sw--service-card__icon sw--service-card__icon--blue">
+            <i class="fa-solid fa-display"></i>
+          </div>
+          <h3 class="sw--service-card__title">Veb-saytların Hazırlanması</h3>
+        </article>
+
+        <article class="sw--service-card">
+          <div class="sw--service-card__icon sw--service-card__icon--yellow">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <h3 class="sw--service-card__title">Mobil Tətbiqlər</h3>
+        </article>
+
+        <article class="sw--service-card">
+          <div class="sw--service-card__icon sw--service-card__icon--purple">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3 class="sw--service-card__title">SEO Optimizasiya</h3>
+        </article>  
+
+        <article class="sw--service-card">
+          <div class="sw--service-card__icon sw--service-card__icon--cyan">
+            <i class="fa-solid fa-cloud"></i>
+          </div>
+          <h3 class="sw--service-card__title">Tədbir Təşkilatçılığı</h3>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="sw--projects">
+    <div class="container">
+      <div class="sw--projects__top">
+        <div class="sw--section-heading">
+          <span class="sw--section-heading__eyebrow">PORTFOLİOMUZ</span>
+          <h2 class="sw--section-heading__title">İşlərimiz Sözümüzdən Daha Keçərlidir</h2>
+        </div>
+
+        <div class="sw--projects__arrows">
+          <button class="sw--projects__arrow sw--projects__arrow--prev" type="button" aria-label="Previous projects">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button class="sw--projects__arrow sw--projects__arrow--next" type="button" aria-label="Next projects">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="sw--projects__slider">
+        <article class="sw--project-card">
+          <img class="sw--project-card__image" src="assets/images/portfolio/yusifli-labs.png" alt="Yusifli Labs project">
+          <a class="sw--project-card__link" href="https://yusifli.com/" target="_blank" aria-label="Open Yusifli Labs project">
+            <div class="sw--project-card__content">
+              <h3 class="sw--project-card__title">Yusifli Labs</h3>
+              <p class="sw--project-card__text">Website</p>
+            </div>
+            <span class="sw--project-card__arrow" aria-hidden="true">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </span>
+          </a>
+        </article>
+
+        <article class="sw--project-card">
+          <img class="sw--project-card__image" src="assets/images/portfolio/casting-az.png" alt="Casting AZ project">
+          <a class="sw--project-card__link" href="https://casting.az/" target="_blank" aria-label="Open Casting AZ project">
+            <div class="sw--project-card__content">
+              <h3 class="sw--project-card__title">Casting Azerbaijan</h3>
+              <p class="sw--project-card__text">Website</p>
+            </div>
+            <span class="sw--project-card__arrow" aria-hidden="true">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </span>
+          </a>
+        </article>
+
+        <article class="sw--project-card">
+          <img class="sw--project-card__image" src="assets/images/portfolio/tei-az.png" alt="Tei AZ project">
+          <a class="sw--project-card__link" href="https://tei.az/" target="_blank" aria-label="Open Tei AZ project">
+            <div class="sw--project-card__content">
+              <h3 class="sw--project-card__title">AMEA Tarix və Etnologiya İnstitutu</h3>
+              <p class="sw--project-card__text">Website</p>
+            </div>
+            <span class="sw--project-card__arrow" aria-hidden="true">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </span>
+          </a>
+        </article>
+
+        <article class="sw--project-card">
+          <img class="sw--project-card__image" src="assets/images/portfolio/edumedia-az.png" alt="Edumedia AZ project">
+          <a class="sw--project-card__link" href="https://edumedia.az/" target="_blank" aria-label="Open Edumedia AZ project">
+            <div class="sw--project-card__content">
+              <h3 class="sw--project-card__title">Edumedia Azərbaycan</h3>
+              <p class="sw--project-card__text">Website</p>
+            </div>
+            <span class="sw--project-card__arrow" aria-hidden="true">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </span>
+          </a>
+        </article>
+
+        <article class="sw--project-card">
+          <img class="sw--project-card__image" src="assets/images/portfolio/izia.png" alt="IZIA project">
+          <a class="sw--project-card__link" href="https://economiczones.gov.az/" target="_blank" aria-label="Open IZIA project">
+            <div class="sw--project-card__content">
+              <h3 class="sw--project-card__title">İqtisadi Zonaların İnkişafı Agentliyi</h3>
+              <p class="sw--project-card__text">Website Technical Support</p>
+            </div>
+            <span class="sw--project-card__arrow" aria-hidden="true">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </span>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="partners" class="sw--partners">
+    <div class="container">
+      <div class="sw--partners__top">
+        <div class="sw--section-heading">
+          <span class="sw--section-heading__eyebrow">PARTNERLƏRİMİZ</span>
+          <h2 class="sw--section-heading__title">İş Birliyi Gördüyümüz Şirkətlər</h2>
+        </div>
+
+        <div class="sw--partners__arrows">
+          <button class="sw--partners__arrow sw--partners__arrow--prev" type="button" aria-label="Previous partners">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button class="sw--partners__arrow sw--partners__arrow--next" type="button" aria-label="Next partners">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="sw--partners__slider">
+        <a href="https://yusifli.com/" target="_blank" class="sw--partner-card">
+          <img class="sw--partner-card__logo" src="assets/images/partners-logo/yusifli-tech-logo-white.svg" alt="Yusifli Tech">
+        </a>
+        <a href="https://casting.az/" target="_blank" class="sw--partner-card">
+          <img class="sw--partner-card__logo" src="assets/images/partners-logo/casting-az-logo.png" alt="Casting AZ">
+        </a>
+        <a href="https://edumedia.az/" target="_blank" class="sw--partner-card">
+          <img class="sw--partner-card__logo" src="assets/images/partners-logo/page icon.png" alt="Edumedia logo">
+        </a>
+        <a href="https://tarixinstitutu.az/" target="_blank" class="sw--partner-card" style="padding: 0 30px;">
+          <img class="sw--partner-card__logo" src="assets/images/partners-logo/tarix-uni.webp" alt="Tarix Uni" style="max-height: 100px; width: auto;">
+        </a>
+        <a href="https://economiczones.gov.az/" target="_blank" class="sw--partner-card" style="padding: 0 30px;">
+          <img class="sw--partner-card__logo" src="assets/images/partners-logo/izia-logo-white.svg" alt="IZIA">
+        </a>
+        <a href="https://vstto.com/" target="_blank" class="sw--partner-card">
+          <img class="sw--partner-card__logo" src="assets/images/partners-logo/Vintage_solutions_logo.webp" alt="Vintage Solutions">
+        </a>
+        <a href="#" target="_blank" class="sw--partner-card">
+          <img class="sw--partner-card__logo" src="assets/images/partners-logo/intech.png" alt="In Tech">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="sw--contact">
+    <div class="container">
+      <div class="sw--contact__body">
+        <div class="sw--contact__content">
+          <div class="sw--section-heading">
+            <span class="sw--section-heading__eyebrow">BİZƏ YAZIN</span>
+            <h2 class="sw--section-heading__title">Gələcəyi Texnologiya və Kreativliklə Formalaşdıraq</h2>
+          </div>
+
+          <form class="sw--contact__form" action="#" method="post">
+            <div class="sw--contact__grid">
+              <div class="sw--contact__field">
+                <label class="sw--contact__label" for="sw-name">Sizi necə tanıyaq?</label>
+                <input class="sw--contact__input" id="sw-name" type="text" name="name" placeholder="Adınız və ya Şirkətinizin adı *">
+              </div>
+
+              <div class="sw--contact__field">
+                <label class="sw--contact__label" for="sw-email">Rəqəmsal ünvanınız</label>
+                <input class="sw--contact__input" id="sw-email" type="email" name="email" placeholder="nümunə@shirkət.com *">
+              </div>
+
+              <div class="sw--contact__field">
+                <label class="sw--contact__label" for="sw-phone">Dialoq üçün nömrəniz</label>
+                <input class="sw--contact__input" id="sw-phone" type="tel" name="phone" placeholder="+994 (__) ___ __ __ *">
+              </div>
+
+              <div class="sw--contact__field">
+                <label class="sw--contact__label" for="sw-subject">Hansı sahədə sinerji yaradırıq?</label>
+                <input class="sw--contact__input" id="sw-subject" type="text" name="subject" placeholder="Veb, Mobil, Sistem, SEO yoxsa Tədbir?">
+              </div>
+
+              <div class="sw--contact__field sw--contact__field--full">
+                <label class="sw--contact__label" for="sw-message">Vizyonunuzu qısaca bölüşün</label>
+                <textarea class="sw--contact__input sw--contact__textarea" id="sw-message" name="message" placeholder="Xəyallarınızdakı layihəni, hədəflərinizi və ya ağlınızdakı sualları bizə yazın..."></textarea>
+              </div>
+            </div>
+
+            <button class="sw--btn sw--btn--primary sw--contact__submit" type="submit">İlk Addımı At</button>
+          </form>
+        </div>
+
+        <div class="sw--contact__media">
+          <img class="sw--contact__image" src="assets/images/message-img.png" alt="Contact image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="sw--footer">
+    <div class="container">
+      <div class="sw--footer__cards">
+        <article class="sw--footer__card">
+          <span class="sw--footer__card-icon">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+          </span>
+          <div class="sw--footer__card-content">
+            <h3 class="sw--footer__card-title">Tech Fusion Solutions</h3>
+            <p class="sw--footer__card-text">It encompasses the use of computers, networks and modern software.</p>
+          </div>
+        </article>
+
+        <article class="sw--footer__card">
+          <span class="sw--footer__card-icon">
+            <i class="fa-solid fa-microchip"></i>
+          </span>
+          <div class="sw--footer__card-content">
+            <h3 class="sw--footer__card-title">Digital Edge Innovations</h3>
+            <p class="sw--footer__card-text">Other digital technologies to store place network and automation flows.</p>
+          </div>
+        </article>
+
+        <article class="sw--footer__card">
+          <span class="sw--footer__card-icon">
+            <i class="fa-solid fa-cubes"></i>
+          </span>
+          <div class="sw--footer__card-content">
+            <h3 class="sw--footer__card-title">Cloud Wave Services</h3>
+            <p class="sw--footer__card-text">The rapid advancement of technology continuously transforms business.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="sw--footer__main">
+        <div class="sw--footer__brand">
+          <a class="sw--footer__logo" href="index.html" aria-label="Softwave">
+            <img class="sw--footer__logo-img" src="assets/images/logo/softwave-logo-white.png" alt="Softwave">
+          </a>
+          <p class="sw--footer__brand-text">İnnovativ rəqəmsal həllər və kreativ tədbirlərlə biznesinizi gələcəyə daşıyırıq.</p>
+
+          <div class="sw--footer__contact">
+            <span class="sw--footer__contact-label">
+              <i class="fa-solid fa-envelope"></i>
+              Email
+            </span>
+            <a class="sw--footer__contact-link" href="mailto:contact@growwithsss.com">info@softwave.az</a>
+          </div>
+        </div>
+
+        <div class="sw--footer__links">
+          <div class="sw--footer__column">
+            <h4 class="sw--footer__title">Xidmətlər</h4>
+            <ul class="sw--footer__list">
+              <li><a class="sw--footer__link" href="#">Tədbir Təşkilatçılığı</a></li>
+              <li><a class="sw--footer__link" href="#">Veb-saytların Hazırlanması</a></li>
+              <li><a class="sw--footer__link" href="#">Mobil Tətbiqlər</a></li>
+              <li><a class="sw--footer__link" href="#">İdarəetmə Sistemləri (ERP/CRM)</a></li>
+              <li><a class="sw--footer__link" href="#">SEO Optimizasiya</a></li>
+              <!-- <li><a class="sw--footer__link sw--footer__link--highlight" href="#">View All</a></li> -->
+            </ul>
+          </div>
+
+          <div class="sw--footer__column">
+            <h4 class="sw--footer__title">Keçidlər</h4>
+            <ul class="sw--footer__list">
+              <li><a class="sw--footer__link" href="#aboutus">Haqqımızda</a></li>
+              <li><a class="sw--footer__link" href="#services">Xidmətlərimiz</a></li>
+              <li><a class="sw--footer__link" href="#projects">Portfoliomuz</a></li>
+              <li><a class="sw--footer__link" href="#contact">Əlaqə</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="sw--footer__bottom">
+        <p class="sw--footer__copyright">© 2026 Softwave MMC. Bütün hüquqlar qorunur.</p>
+        <div class="sw--footer__bottom-links">
+          <a class="sw--footer__bottom-link" href="terms-conditions.html">İstifadəçi Şərtləri</a>
+          <a class="sw--footer__bottom-link" href="privacy-policy.html">Məxfilik Siyasəti</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+
+
+</body>
+</html>
